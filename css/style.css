@@ -178,3 +178,20 @@ img {
   width: 600px;
   margin-bottom: 40px;
 }
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.testimonials .card p:nth-child(2) {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.card {
+  background: white;
+  color: black;
+  border-radius: 15px;
+  padding: 20px;
+}
