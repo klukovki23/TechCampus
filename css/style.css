@@ -16,7 +16,7 @@ a {
   color: #333;
 }
 
-ul {
+.navbar ul {
   list-style: none;
 }
 
@@ -55,17 +55,24 @@ img {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
 .container-sm {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.card {
+  background: white;
+  color: black;
+  border-radius: 15px;
+  padding: 40px;
+  margin-bottom: 80px;
+  max-width: 400px;
+}
 .btn {
   display: inline-block;
   padding: 13px 20px;
@@ -79,6 +86,16 @@ img {
   display: inline-block;
   padding: 13px 20px;
   background: rgba(103, 85, 235, 1);
+  border-radius: 12px;
+  width: 166px;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
+}
+.btn-light {
+  display: inline-block;
+  padding: 13px 20px;
+  background: rgba(103, 85, 235, 0.64);
   border-radius: 12px;
   width: 166px;
   text-align: center;
@@ -101,16 +118,18 @@ img {
   width: 207px;
   text-align: center;
   font-weight: 600;
-  margin-left: 10px;
 }
-
+.btn-block {
+  display: block;
+  width: 100%;
+}
 .text-xxl {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.2;
   font-weight: 600;
   margin: 40px 0 20px;
   margin-top: 100px;
-  width: 800px;
+  width: 1000px;
   margin-bottom: 40px;
 }
 
@@ -120,7 +139,17 @@ img {
   font-weight: 400;
   margin: 40px 0 20px;
   margin-top: 100px;
-  width: 680px;
+  width: 780px;
+  margin-bottom: 40px;
+}
+
+.text-md {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 40px 0 20px;
+  margin-top: 100px;
+  width: 400px;
   margin-bottom: 40px;
 }
 
@@ -166,6 +195,10 @@ img {
   color: #fff;
 }
 
+.bg-light {
+  background: rgba(223, 222, 226, 1);
+  color: #000000;
+}
 .bg-dark {
   background: rgba(30, 30, 44, 1);
   color: #fff;
@@ -189,9 +222,33 @@ img {
   margin-top: 30px;
   font-weight: bold;
 }
-.card {
-  background: white;
-  color: black;
-  border-radius: 15px;
-  padding: 20px;
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.pricing-card-subheading {
+  margin-bottom: 20px;
+}
+
+.pricing .pricing-card-price {
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.pricing ul {
+  margin: 30px 0;
+}
+
+.pricing ul li {
+  margin-bottom: 20px;
+}
+
+.pricing ul li i {
+  margin-right: 10px;
 }
