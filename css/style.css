@@ -136,7 +136,7 @@ img {
 .text-xl {
   font-size: 2rem;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 600;
   margin: 40px 0 20px;
   margin-top: 100px;
   width: 780px;
@@ -144,12 +144,21 @@ img {
 }
 
 .text-md {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   line-height: 1.2;
   font-weight: 400;
   margin: 40px 0 20px;
   margin-top: 100px;
   width: 700px;
+  margin-bottom: 40px;
+}
+.text-sm {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 20px 0 10px;
+  margin-top: 40px;
+  width: 330px;
   margin-bottom: 40px;
 }
 
@@ -256,6 +265,9 @@ img {
 .faq {
   padding: 40px 0;
 }
+.faq-content {
+  margin-top: 60px;
+}
 
 .faq-group {
   border-bottom: 1px solid #ccc;
@@ -310,4 +322,56 @@ img {
 .faq ul.faq-menu li.active {
   background: rgba(103, 85, 235, 1);
   color: #fff;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  line-height: 2.5;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.footer i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: start;
+  margin-top: 100px;
+}
+
+.footer .card {
+  margin: 20px 30px 30px 0;
+}
+
+.footer input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.logo-footer {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr;
+  gap: 5px;
+}
+
+.logo-text {
+  color: rgba(103, 85, 235, 1);
 }
