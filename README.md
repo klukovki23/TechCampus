@@ -13,4 +13,4 @@ To run the project locally:
 * Open the project folder in your code editor (e.g., VS Code).
 
 * Use the GoLive extension to launch a local server.
-Or simply open the index.html file in your web browser.
+Or simply run the index.html file in your web browser.
